@@ -1,0 +1,230 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleBray Stiens  Senior Software Engineertitle
+    style
+        root {
+            --primary #2563eb;
+            --bg-dark #0f172a;
+            --text-light #f8fafc;
+            --text-muted #94a3b8;
+            --card-bg #1e293b;
+        }
+        body {
+            font-family -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            line-height 1.6;
+            margin 0;
+            padding 0;
+            background-color var(--bg-dark);
+            color var(--text-light);
+        }
+        header {
+            padding 4rem 2rem;
+            text-align center;
+            border-bottom 1px solid #334155;
+        }
+        h1 {
+            font-size 3rem;
+            margin-bottom 0.5rem;
+            color var(--text-light);
+        }
+        h2 {
+            color var(--primary);
+            font-weight 400;
+        }
+        .contact-info {
+            color var(--text-muted);
+            margin-top 1rem;
+        }
+        .contact-info a {
+            color var(--primary);
+            text-decoration none;
+            margin 0 10px;
+        }
+        .container {
+            max-width 1000px;
+            margin 0 auto;
+            padding 2rem;
+        }
+        section {
+            margin-bottom 4rem;
+        }
+        .section-title {
+            font-size 2rem;
+            border-bottom 2px solid var(--primary);
+            padding-bottom 0.5rem;
+            margin-bottom 2rem;
+        }
+        .card {
+            background-color var(--card-bg);
+            padding 2rem;
+            border-radius 8px;
+            margin-bottom 1.5rem;
+            box-shadow 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .job-header {
+            display flex;
+            justify-content space-between;
+            align-items baseline;
+            margin-bottom 1rem;
+        }
+        .job-title {
+            font-size 1.25rem;
+            font-weight bold;
+        }
+        .job-date {
+            color var(--text-muted);
+        }
+        .skills-grid {
+            display grid;
+            grid-template-columns repeat(auto-fit, minmax(250px, 1fr));
+            gap 1.5rem;
+        }
+        .skill-category {
+            background-color var(--card-bg);
+            padding 1.5rem;
+            border-radius 8px;
+        }
+        .skill-category h3 {
+            color var(--primary);
+            margin-top 0;
+        }
+        ul {
+            padding-left 1.5rem;
+            color var(--text-muted);
+        }
+        li {
+            margin-bottom 0.5rem;
+        }
+        .about-text {
+            color var(--text-muted);
+            font-size 1.1rem;
+        }
+    style
+head
+body
+
+    header
+        h1BRAY STIENS[cite 1]h1
+        h2Senior Software Engineer[cite 1]h2
+        div class=contact-info
+            spanEmail bray.stiens@gmail.com[cite 1]span  
+            spanPhone 513-835-4401[cite 1]span
+        div
+    header
+
+    div class=container
+        
+        section id=summary
+            h2 class=section-titleProfileh2
+            p class=about-text
+                Senior Software Engineer with 7+ years architecting and delivering cloud-native systems across Azure and GCP[cite 1]. I have deep expertise in .NETC# backend development, REST API design, and event-driven distributed systems[cite 1]. My hands-on experience spans infrastructure, microservice APIs, BFF orchestration layers, and React UI[cite 1]. I am known for end-to-end technical ownership, from migrating enterprise logistics platforms to Azure to leading full-stack analytics products through all four layers of a microservices architecture[cite 1]. I thrive in environments that reward engineering craft, architectural thinking, and high ownership[cite 1].
+            p
+        section
+
+        section id=experience
+            h2 class=section-titleProfessional Experienceh2
+
+            div class=card
+                div class=job-header
+                    div class=job-titleConstructConnect - Tech Lead (Software Engineer II)[cite 1]div
+                    div class=job-date2024 - Present[cite 1]div
+                div
+                ul
+                    liArchitected and led development of a Market Analytics add-on product nearing launch, owning all four layers of a microservices platform — infrastructure, backend API, BFF orchestration, and React UI — representing true end-to-end technical ownership across a cross-functional team[cite 1].li
+                    liUtilized agentic development via Claude Code to build a secure Next.js BFF orchestration layer handling Looker SSO embed URL signing, GCP Identity Platform authentication, user identity propagation, inline theming, and structured observability with request duration logging[cite 1].li
+                    liImplemented a configuration-driven React dashboard routing system with LaunchDarkly feature flag gating, explicit view lifecycle state machine, and CSRF protection — delivering a production-grade embedded analytics experience[cite 1].li
+                    liManaged and maintained Looker infrastructure including embedded analytics dashboard configuration and availability across the platform[cite 1].li
+                    liDelivered a customer-facing ElasticSearch .NET API processing 1K–10K queries daily, enabling high-performance project and company lead search across enterprise platform applications via containerized GCP Cloud Run deployment[cite 1].li
+                ul
+            div
+
+            div class=card
+                div class=job-header
+                    div class=job-titleInsight Enterprises (Werner Enterprises Client) - Senior Software Engineer[cite 1]div
+                    div class=job-date2022 - 2024[cite 1]div
+                div
+                ul
+                    liLed the migration of shipment and equipment management systems to a scalable Azure cloud platform, implementing Cosmos DB, Azure Service Bus, and Azure Functions — delivering ~25% performance improvement and 10-30% infrastructure cost reduction[cite 1].li
+                    liDelivered REST API work streams across a cloud-native PaaS architecture, three of which were critical path dependencies for the successful launch of a new TMS platform at one of the largest trucking companies in North America[cite 1].li
+                    liEstablished a modern CICD pipeline using GitHub Actions and Pulumi, replacing manual deployment processes and enabling consistent, repeatable infrastructure provisioning across the engineering team[cite 1].li
+                ul
+            div
+
+            div class=card
+                div class=job-header
+                    div class=job-titleInsight Enterprises (Paychex Inc Client) - Software Engineer[cite 1]div
+                    div class=job-date2021 - 2022[cite 1]div
+                div
+                ul
+                    liCreated an Azure Chatbot Service with Live Agent Conversation integration, reducing call center inquiries by 68%[cite 1].li
+                    liDeveloped an end-to-end .NETC# and Angular application focused on providing commonly needed information to consumers efficiently[cite 1].li
+                ul
+            div
+
+            div class=card
+                div class=job-header
+                    div class=job-titleGreat American Insurance - Quality Engineer[cite 1]div
+                    div class=job-date2017 - 2021[cite 1]div
+                div
+                ul
+                    liBuilt and maintained a groovy and selenium based automated testing suite and framework[cite 1].li
+                    liIntegrated automated tests into CICD pipelines using Jenkins, enabling faster feedback loops and reducing manual QA overhead[cite 1].li
+                ul
+            div
+        section
+
+        section id=skills
+            h2 class=section-titleTechnical Skillsh2
+            div class=skills-grid
+                div class=skill-category
+                    h3Cloud & Infrastructure[cite 1]h3
+                    pAzure (Service Bus, Functions, Cosmos DB), GCP (Cloud Run, BigQuery)[cite 1]p
+                div
+                div class=skill-category
+                    h3Languages & Frameworks[cite 1]h3
+                    pC#  .NET 8  .NET Core, JavaScript  TypeScript, Python, SQL  KQL, Java[cite 1]p
+                div
+                div class=skill-category
+                    h3Frontend & Full Stack[cite 1]h3
+                    pReact  Next.js, Node.js, HTML  CSS[cite 1]p
+                div
+                div class=skill-category
+                    h3System Design[cite 1]h3
+                    pMicroservices Orchestration, Event-Driven Design, Cloud-Native Patterns, Infrastructure as Code (IaC)[cite 1]p
+                div
+                div class=skill-category
+                    h3Data, Analytics & APIs[cite 1]h3
+                    pCosmos DB, BigQuery, Looker, Entity Framework, REST APIs, Azure Service Bus (PubSub), ElasticSearch[cite 1]p
+                div
+                div class=skill-category
+                    h3Tools & CICD[cite 1]h3
+                    pPulumi, Terraform, GitHub Actions, GitHubGitLab, GitHub Copilot, Postman, Claude Code, Scrum, Kanban[cite 1]p
+                div
+            div
+        section
+
+        section id=education-and-beyond
+            h2 class=section-titleEducation & Beyondh2
+            div class=card
+                div class=job-header
+                    div class=job-titleXavier University[cite 1]div
+                    div class=job-date2015 - 2019[cite 1]div
+                div
+                p class=about-text style=margin-bottom 1rem;Major Computer Science; Minor Jewish Studies[cite 1]p
+                
+                h3 style=color var(--primary); margin-top 1.5rem;Off the Keyboardh3
+                p class=about-text
+                    Based in the Cincinnati area, I believe in maintaining a strong balance between the digital and natural worlds. When I step away from building event-driven architectures, you can usually find me out on the water. As a former fly fishing guide, I spend plenty of time navigating local lakes in my kayak chasing my next catch. 
+                p
+                p class=about-text
+                    I'm also passionate about game development and am currently building my own 3D top-down arena space shooter for Steam. Whether I'm diving deep into history lore, managing my OSRS account, or firing up the backyard smoker for a brisket, I bring the same level of focus and craft to my hobbies as I do to my code.
+                p
+            div
+        section
+
+    div
+body
+html
