@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section id="top" className="grid items-center gap-8 rounded-[28px] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/30 backdrop-blur md:grid-cols-[1.25fr_320px] md:p-10 lg:p-12">
       <div className="space-y-6">
-        <Badge tone="accent">{`${hero.title} · Cloud-Native Systems · React/Next.js`}</Badge>
+        <Badge tone="accent">{`${hero.title} · ${hero.badge.join(" · ")}`}</Badge>
 
         <div className="space-y-4">
           <h1 className="font-[family:var(--font-heading)] text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">

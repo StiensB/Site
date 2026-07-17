@@ -51,9 +51,10 @@ export const siteContent = {
     title: "Senior Software Engineer",
     summary:
       "I design and deliver resilient cloud-native platforms across .NET/C# backend systems, distributed architecture, and modern React/Next.js experiences with strong product ownership from concept through production.",
+    badge: ["Cloud-Native Systems", "React/Next.js"],
     image: {
       src: "/images/bray-stiens-headshot.jpg",
-      alt: "Headshot of Bray Stiens",
+      alt: "Professional headshot of Bray Stiens, Senior Software Engineer",
     },
     highlights: [
       { value: "7+ Years", label: "Shipping enterprise software" },

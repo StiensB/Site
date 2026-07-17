@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         url: "/images/bray-stiens-headshot.jpg",
         width: 640,
         height: 760,
-        alt: "Headshot of Bray Stiens",
+        alt: "Professional headshot of Bray Stiens, Senior Software Engineer",
       },
     ],
   },
